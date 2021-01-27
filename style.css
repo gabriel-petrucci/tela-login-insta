@@ -1,57 +1,90 @@
+:root { 
+    --main-background-login: white;
+    --color-links: rgb(5,148,245);
+}
+
 * {
     padding: 0;
-   margin: 0;
-   font-size:14px;
-   box-sizing: border-box;
-   text-decoration: none;
-   font-family: sans-serif; 
-  }
+    margin: 0;
+    font-size:14px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
 
-  body {
-      width: 100%;
-      min-height: 100vh;
-      background-color:whitesmoke;
-      margin: 0;
-      padding: 0;
-      display:flex;
-      justify-content: center;
-  }
-  
-  .instagramcorpo {
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
+
+.instagramcorpo {
     display:flex;
     align-items: center;
     justify-content: center;
     width:60%;
-    height: 100vh;
-    
-  }
+    height: 100vh;    
+}
 
-  .insatagramcelularart{
+
+.insatagramcelularart{
     display: flex;
     align-items: center;
     justify-content: center;
     width:50%;  
-  }
+}
 
-  .fotodeperfil img {
-      height:10rem;
+.container1 .grupo .instagramlogin .fotodeperfil {
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container1 .grupo .instagramlogin .fotodeperfil img {
+    height: 10rem;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
 }
 
 .container1{
- justify-content: space-around;
- align-items: center;
- justify-content:space-around;
- flex-direction: column;
- min-height: 34rem;
- width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    min-height: 34rem;
+    width: 30%;
 }
+
 .grupo {
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-background-color: white;
-width: 100%;
-padding:1.3rem;
-border: 1px, solid lightgrey;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-background-login);
+    width: 100%;
+    padding:1.3rem;
+    border: 1px, solid lightgrey;  
+}
+
+.grupo-naoevc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-background-login);
+    width: 100%;
+    padding:1.3rem;
+    border: 1px, solid lightgrey;
+    margin-top: 15px;
+}
+
+.grupo-naoevc .naoevc .linkazul {
+     color:var(--color-links);   
 }

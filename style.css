@@ -121,14 +121,13 @@ border: 1px solid lightgrey;
     justify-content: center;
     display: flex;
 }
-.fotodeperfil img {
-    border-radius: 100%;
-}
-.removerconta{color:blue;
 
-}
+.fotodeperfil img {border-radius: 100%;}
+.removerconta{color:blue;}
 .linkazul1 { color:blue}
 .linkazul2 {color:blue}
+
+
 
 .getheapp{
 display:flex;
@@ -137,4 +136,25 @@ align-items: center;
 justify-content: center;
 width: 100%;
 padding:1.3rem 0;
+}
+
+.download{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;
+padding: 1rem;    
+}
+
+.baixe{
+height: 3rem;
+width: 10rem;
+background-size: cover;
+}
+
+.baixe:nth-child(1){
+background-image: url(./imagens/logoappstore.png)
+}
+.baixe:nth-child(2){
+background-image: url(./imagens/logogoogleplay.png);
 }
